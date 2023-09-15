@@ -1,12 +1,47 @@
 package user.jacobandrudy.projects;
+import java.util.HashMap;
 public class RPS {
     public static void main(String args[]){
+        HashMap<Character, Integer> points = new HashMap<Character, Integer>();
+        HashMap<String, Integer> result = new HashMap<String, Integer>();
+        HashMap<String, Character> counterPick = new HashMap<String, Character>();
+        HashMap<Character, Integer> solution = new HashMap<Character, Integer>();
+        points.put('X', 1);
+        points.put('Y', 2);
+        points.put('Z', 3);
+        result.put("AX", 3);
+        result.put("BX", 0);
+        result.put("CX", 6);
+        result.put("AY", 6);
+        result.put("BY", 3);
+        result.put("CY", 0);
+        result.put("AZ", 0);
+        result.put("BZ", 6);
+        result.put("CZ", 3);
+        solution.put('X', 0);
+        solution.put('Y', 3);
+        solution.put('Z', 6);
+        
+
+        counterPick.put("AX", 'Y');
+        counterPick.put("BX", 'Z');
+        counterPick.put("CX", 'X');
+        counterPick.put("AY", 'X');
+        counterPick.put("BY", 'Y');
+        counterPick.put("CY", 'Z');
+        counterPick.put("AZ", 'Y');
+        counterPick.put("BZ", 'Z');
+        counterPick.put("CZ", 'X');
         Character[][] inputArray = createInput(input());
+        int sol = 0;
         for (int i = 0; i < inputArray.length; i++) {
-            for (int j = 0; j < inputArray[0].length; j++) {
-                System.out.println(inputArray[i][j]);
-            }
+            String matchup = "";
+            matchup += inputArray[i][0];
+            matchup += inputArray[i][1];
+
+            sol += points.get(counterPick.get(matchup)) + solution.get(inputArray[i][1]);
         }
+        System.out.println(sol);
     }
 
     public static Character[][] createInput(String input) {
