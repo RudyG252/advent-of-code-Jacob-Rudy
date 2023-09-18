@@ -1,4 +1,4 @@
-package user.jacobandrudy.Day3;
+package user.jacobandrudy.projects.day3;
 
 public class Input {
     

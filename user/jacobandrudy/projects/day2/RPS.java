@@ -1,4 +1,4 @@
-package user.jacobandrudy.Day2;
+package user.jacobandrudy.projects.day2;
 import java.util.HashMap;
 public class RPS {
     public static void main(String args[]){

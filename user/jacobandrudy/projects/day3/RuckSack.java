@@ -1,4 +1,4 @@
-package user.jacobandrudy.Day3;
+package user.jacobandrudy.projects.day3;
 import java.util.ArrayList;
 public class RuckSack {
     public static void main(String args[]){
