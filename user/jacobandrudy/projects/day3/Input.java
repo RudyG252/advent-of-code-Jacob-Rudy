@@ -1,17 +1,28 @@
 package user.jacobandrudy.projects.day3;
 
+import java.util.ArrayList;
+
 public class Input {
     
     public static void printInput(String input) {
         System.out.println(input);
     }
     
+
+    public static ArrayList<ArrayList<Integer>> changeToValues(String input) {
+        ArrayList<ArrayList<Integer>> sol = new ArrayList<ArrayList<Integer>>();
+        int half;
+        for (int i = 0; i < input.length(); i++) {
+            
+        }
+        return sol;
+    }   
     
     
     
     
     public static String createInput() {
-        return "QLFdFCdlLcVqdvFLnFLSSShZwptfHHhfZZZpSwfmHp\r\n" + //
+        String input = "QLFdFCdlLcVqdvFLnFLSSShZwptfHHhfZZZpSwfmHp\r\n" + //
                 "rTJRjjbJTgzDJjdsRsfwtfNwtfmZpZNhmmzt\r\n" + //
                 "bMdJjsjglnVMFCCc\r\n" + //
                 "BZvZMBBBMTtZTgcCPdgtgQCrrV\r\n" + //
@@ -311,5 +322,6 @@ public class Input {
                 "zgLgLHnnzCCvnsHSsZBZBsTRdD\r\n" + //
                 "rslllhJjcQNNGjpWJlSRTRdwBVSSNTPVSdPB\r\n" + //
                 "jGrGqjJfqccrfqGcGplrJpFvzggqmCtMzmsMnvMvvCgm\r\n";
+        return input.replace("\r", "");
     }
 }
