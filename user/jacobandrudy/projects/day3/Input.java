@@ -9,14 +9,7 @@ public class Input {
     }
     
 
-    public static ArrayList<ArrayList<Integer>> changeToValues(String input) {
-        ArrayList<ArrayList<Integer>> sol = new ArrayList<ArrayList<Integer>>();
-        int half;
-        for (int i = 0; i < input.length(); i++) {
-            
-        }
-        return sol;
-    }   
+
     
     
     
