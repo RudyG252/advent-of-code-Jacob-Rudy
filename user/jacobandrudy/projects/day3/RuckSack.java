@@ -35,7 +35,7 @@ public class RuckSack {
         int last = 0;
         int current = 0;
         for (int i = 0; i < input.length(); i++) {
-            if (input.charAt(i) == '\n' || i == input.length() - 1) {
+            if (input.charAt(i) == '\n') {
                 // last should be the start of the compartment
                 int half = (last + ((i - last + 1)/2));
                 sol.add(new ArrayList<String>());
