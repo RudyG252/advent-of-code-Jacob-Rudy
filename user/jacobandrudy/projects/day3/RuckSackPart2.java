@@ -39,14 +39,23 @@ public class RuckSackPart2 {
         ArrayList<ArrayList<String>> sol = new ArrayList<ArrayList<String>>();
         int last = 0;
         int current = 0;
+        int arrays = 0;
+        sol.add(new ArrayList<String>());
         for (int i = 0; i < input.length(); i++) {
-            if (input.charAt(i) == '\n' || i == input.length() - 1) {
+            if (input.charAt(i) == '\n') {
                 current++;
+                if(current == 300) {
+                    System.out.println(input.substring(last, i));
+                }
+
+                System.out.println(input.charAt(i));
+                sol.get(arrays).add(input.substring(last + 1, i));
+                last = i;
                 if (current % 3 == 0) {
                     sol.add(new ArrayList<String>());
-                    sol.get(current / 3 - 1).add(input.substring(last, i));
+                    arrays++;
                 }
-                last = i + 1;
+                System.out.println(arrays);
             }
         }
         return sol;
