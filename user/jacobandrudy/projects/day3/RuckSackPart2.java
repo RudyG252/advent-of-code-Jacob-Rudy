@@ -6,7 +6,7 @@ public class RuckSackPart2 {
         int sol = 0;
         String input = Input.createInput();
         ArrayList<ArrayList<String>> compartments = makeGroupsOfThree(input);
-        for (int i = 0; i < compartments.size(); i++) {
+        for (int i = 0; i < compartments.size() - 1; i++) {
             Character duplicate = findDuplicate(compartments.get(i));
             sol += charToInt(duplicate);
         }
@@ -44,18 +44,17 @@ public class RuckSackPart2 {
         for (int i = 0; i < input.length(); i++) {
             if (input.charAt(i) == '\n') {
                 current++;
-                if(current == 300) {
-                    System.out.println(input.substring(last, i));
-                }
-
                 System.out.println(input.charAt(i));
                 sol.get(arrays).add(input.substring(last + 1, i));
                 last = i;
                 if (current % 3 == 0) {
+                    System.out.println(sol.get(arrays));
                     sol.add(new ArrayList<String>());
-                    arrays++;
+                    if (input.length() != 99) {
+                        arrays++;
+                    }
+
                 }
-                System.out.println(arrays);
             }
         }
         return sol;
@@ -66,4 +65,5 @@ public class RuckSackPart2 {
         duplicateNumber = duplicateNumber < 97 ? duplicateNumber - 64 + 26 : duplicateNumber - 96;
         return duplicateNumber;
     }
+
 }
