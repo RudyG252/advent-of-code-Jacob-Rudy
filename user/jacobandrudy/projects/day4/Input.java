@@ -21,7 +21,7 @@ public class Input {
     }
 
     private static ArrayList<Boolean> parseInputRow() {
-        String input = DIFF_INPUT;
+        String input = INPUT;
 
         String[] splitString = input.split("\n");
         
@@ -41,7 +41,7 @@ public class Input {
             for (int newChar = beginRange; newChar < newLineArray.length; newChar++) {
                 if (newLineArray[newChar] == '-' ||
                         newLineArray[newChar] == ',' ||
-                        newLineArray[newChar] == '\n') {
+                        newLineArray[newChar] == '\n' || newChar == newLineArray.length - 1) {
 
                     if (secondNumber == -1) {
                         secondNumber = newLineArray[beginRange] - '0';
@@ -54,14 +54,13 @@ public class Input {
                     beginRange = newChar + 1;
                 }
             }
-            System.out.println(firstNumber + " " + secondNumber + " " + thirdNumber + " " + fourthNumber);
-            // if (firstNumber <= thirdNumber && thirdNumber <= secondNumber
-            //         && firstNumber <= fourthNumber && fourthNumber <= secondNumber
-            //     || thirdNumber <= firstNumber && firstNumber <= fourthNumber
-            //         && thirdNumber <= secondNumber && secondNumber <= fourthNumber) {
-            //     System.out.println(firstNumber+"-"+secondNumber+" and "+thirdNumber+"-"+fourthNumber+" are overlapping");
-            //     isPair.add(true);
-            // }
+            if (firstNumber <= thirdNumber && thirdNumber <= secondNumber
+                    && firstNumber <= fourthNumber && fourthNumber <= secondNumber
+                || thirdNumber <= firstNumber && firstNumber <= fourthNumber
+                    && thirdNumber <= secondNumber && secondNumber <= fourthNumber) {
+                System.out.println(firstNumber+"-"+secondNumber+" and "+thirdNumber+"-"+fourthNumber+" are overlapping");
+                isPair.add(true);
+            }
         }
         return isPair;
     }
