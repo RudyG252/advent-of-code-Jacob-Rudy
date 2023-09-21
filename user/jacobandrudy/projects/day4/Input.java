@@ -1,69 +1,6 @@
 package user.jacobandrudy.projects.day4;
 
-import java.util.ArrayList;
-
 public class Input {
-
-    public static void main(String args[]) {
-        isInsideRange();
-    }
-
-    public static void isInsideRange(){
-        ArrayList<Boolean> sol = parseInputRow();
-
-        for (int i = 0; i < sol.size(); i++){
-            System.out.println(sol.get(i));
-        }
-
-        int size = sol.size();
-
-        System.out.println(size);
-    }
-
-    private static ArrayList<Boolean> parseInputRow() {
-        String input = INPUT;
-
-        String[] splitString = input.split("\n");
-        
-        ArrayList<Boolean> isPair = new ArrayList<>();
-        
-        for (int newLine = 0; newLine < splitString.length; newLine++) {
-
-            char[] newLineArray = splitString[newLine].toCharArray();
-
-            int firstNumber = newLineArray[0] - '0';
-            int secondNumber = -1;
-            int thirdNumber = -1;
-            int fourthNumber = -1;
-
-            int beginRange = 2;
-
-            for (int newChar = beginRange; newChar < newLineArray.length; newChar++) {
-                if (newLineArray[newChar] == '-' ||
-                        newLineArray[newChar] == ',' ||
-                        newLineArray[newChar] == '\n' || newChar == newLineArray.length - 1) {
-
-                    if (secondNumber == -1) {
-                        secondNumber = newLineArray[beginRange] - '0';
-                    }else if (thirdNumber == -1) {
-                        thirdNumber = newLineArray[beginRange] - '0';
-                    }else if (fourthNumber == -1) {
-                        fourthNumber = newLineArray[beginRange] - '0';
-                    }
-                    
-                    beginRange = newChar + 1;
-                }
-            }
-            if (firstNumber <= thirdNumber && thirdNumber <= secondNumber
-                    && firstNumber <= fourthNumber && fourthNumber <= secondNumber
-                || thirdNumber <= firstNumber && firstNumber <= fourthNumber
-                    && thirdNumber <= secondNumber && secondNumber <= fourthNumber) {
-                System.out.println(firstNumber+"-"+secondNumber+" and "+thirdNumber+"-"+fourthNumber+" are overlapping");
-                isPair.add(true);
-            }
-        }
-        return isPair;
-    }
 
     public static final String DIFF_INPUT = "2-4,6-8\n" + //
             "2-3,4-5\n" + // 
