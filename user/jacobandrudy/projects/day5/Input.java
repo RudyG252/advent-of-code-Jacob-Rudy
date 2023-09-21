@@ -11,13 +11,16 @@ public class Input {
         for (int i = 0; i < 9; i++) {
             stacks.add(new Stack<Character>());
         }
-        for (int i = input.length() - 1; i >= 0; i++) {
+        for (int i = input.length() - 1; i >= 0; i--) {
             if (input.charAt(i) == ']') {
                 stacks.get(currentStack).push(input.charAt(i - 1));
                 currentStack--;
                 if (currentStack < 0) {
                     currentStack = 8;
                 }
+            }
+            else if (input.charAt(i) == 'N') {
+                currentStack--;
             }
         }
         System.out.println(stacks.get(0));
@@ -31,11 +34,11 @@ public class Input {
 
 
     public static String stackInput() {
-        String input = "[G]                 [D] [R]        \n" + //
-                       "[W]         [V]     [C] [T] [M]    \n" + //
-                       "[L]         [P] [Z] [Q] [F] [V]    \n" + //
-                       "[J]         [S] [D] [J] [M] [T] [V]\n" + //
-                       "[B]     [M] [H] [L] [Z] [J] [B] [S]\n" + //
+        String input = "[G]  N   N   N   N  [D] [R]  N   N \n" + //
+                       "[W]  N   N  [V]  N  [C] [T] [M]  N \n" + //
+                       "[L]  N   N  [P] [Z] [Q] [F] [V]  N \n" + //
+                       "[J]  N   N  [S] [D] [J] [M] [T] [V]\n" + //
+                       "[B]  N  [M] [H] [L] [Z] [J] [B] [S]\n" + //
                        "[R] [C] [T] [C] [T] [R] [D] [R] [D]\n" + //
                        "[T] [W] [Z] [T] [P] [B] [B] [H] [P]\n" + //
                        "[D] [S] [R] [D] [G] [F] [S] [L] [Q]\n" + //
