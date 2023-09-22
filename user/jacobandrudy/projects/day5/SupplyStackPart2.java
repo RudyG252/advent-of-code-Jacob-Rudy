@@ -1,7 +1,7 @@
 package user.jacobandrudy.projects.day5;
 import java.util.ArrayList;
 import java.util.Stack;
-public class SupplyStack {
+public class SupplyStackPart2 {
     public static void main(String args[]){
         ArrayList<Stack<Character>> stacks = Input.stacks();
         String input = Input.input();
@@ -25,17 +25,20 @@ public class SupplyStack {
         for (int i = 0; i < stacks.size(); i++) {
             System.out.print(stacks.get(i).peek());
         }
-        
+
     }
 
     public static ArrayList<Stack<Character>> moveFrom(ArrayList<Stack<Character>> stacks, int from, int to, int amount) {
+        Stack<Character> temp = new Stack<Character>();
         for (int i = 0; i < amount; i++) {
             if(stacks.get(from).size() > 0) {
-                stacks.get(to).add(stacks.get(from).pop());
+                temp.push(stacks.get(from).pop());
             }
+        }
+        while (temp.size() > 0) {
+            stacks.get(to).push(temp.pop());
         }
         return stacks;
     }
 
 }
- 

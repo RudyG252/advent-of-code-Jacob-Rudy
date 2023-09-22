@@ -23,7 +23,6 @@ public class Input {
                 currentStack--;
             }  
         }
-        System.out.println(stacks.get(0).pop());
         return stacks;
     }
 
