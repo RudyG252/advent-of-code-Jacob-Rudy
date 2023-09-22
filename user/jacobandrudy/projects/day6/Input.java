@@ -30,6 +30,7 @@ public class Input {
         HashMap<String, Integer> map = createHashMapOfSubString(start, end, input);
 
         // if the map doesnt contain 1 then there is a duplicate
+        // TODO: this is my issue right now
         return map.containsValue(2);
     }
 
