@@ -4,6 +4,7 @@ import java.util.ArrayList;
 public class AddDirectories {
 
     public static void main (String[] args) {
+        int sol = 0;
         HashMap<String, Integer> directorySizes = new HashMap<String, Integer>();
         String currentDirectory = "";
         String input = Input.input();
@@ -27,15 +28,20 @@ public class AddDirectories {
                 else if (input.charAt(last) != 'd') {
                     String size = "";
                     for (int j = last; input.charAt(j) != ' '; j++) {
-                        size.add(input.charAt(j) + "");
+                        size += input.charAt(j) + "";
                     }
-                
+                    for (int j = 0; j < directories.size(); j++) {
+                        directorySizes.put(directories.get(j), directorySizes.getOrDefault(directorySizes.get(j), 0) + Integer.parseInt(size));
+                    }
 
                 }
 
                 last = i + 1;
-            }
+            }   
         }
+        directorySizes.forEach(
+            (key, value)
+                -> sol += value <= 100000 ? value : 0);
 
 
     }
