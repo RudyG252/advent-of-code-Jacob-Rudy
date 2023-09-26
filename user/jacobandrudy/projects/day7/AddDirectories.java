@@ -39,11 +39,12 @@ public class AddDirectories {
                 last = i + 1;
             }   
         }
-        directorySizes.forEach(
-            (key, value)
-                -> sol += value <= 100000 ? value : 0);
-
-
+        for (int value : directorySizes.values()) {
+            if (value < 100000) {
+                sol += value;
+            }
+        }
+        System.out.println(sol);
     }
 
 
