@@ -6,11 +6,9 @@ public class AddDirectories {
     public static void main (String[] args) {
         int sol = 0;
         HashMap<String, Integer> directorySizes = new HashMap<String, Integer>();
-        String currentDirectory = "";
         String input = Input.input();
         ArrayList<String> directories = new ArrayList<String>();
         int last = 0;
-        boolean lookForFile = false;
         for (int i = 0; i < input.length(); i++) {
             if (input.charAt(i) == '\n') {
                 if (input.charAt(last) == '$') {
