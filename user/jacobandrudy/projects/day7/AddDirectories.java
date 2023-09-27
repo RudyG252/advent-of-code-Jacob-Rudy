@@ -34,7 +34,7 @@ public class AddDirectories {
                     System.out.println();
                     
                     for (int j = 0; j < directories.size(); j++) {
-                        int put = directorySizes.getOrDefault(directorySizes.get(directories.get(j)), 0) + Integer.parseInt(size);
+                        int put = directorySizes.getOrDefault(directories.get(j), 0) + Integer.parseInt(size);
                         directorySizes.put(directories.get(j), put);
                     }
                     System.out.println(directorySizes.get(directories.get(0)));
