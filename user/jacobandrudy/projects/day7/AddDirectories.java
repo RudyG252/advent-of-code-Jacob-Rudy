@@ -18,7 +18,12 @@ public class AddDirectories {
                             directories.remove(directories.size() - 1);
                         }
                         else {
-                            directories.add(input.substring(last + 5, i));
+                            String fin = "";
+                            for (int l = 0; l < directories.size(); l++) {
+                                fin += directories.get(l);
+                            }
+                            fin += input.substring(last + 5, i);
+                            directories.add(fin);
                         }
                     }
                 }
