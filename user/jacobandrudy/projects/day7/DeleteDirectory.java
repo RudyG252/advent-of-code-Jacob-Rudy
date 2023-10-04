@@ -1,15 +1,14 @@
 package user.jacobandrudy.projects.day7;
 import java.util.HashMap;
 import java.util.ArrayList;
-public class AddDirectories {
+public class DeleteDirectory {
 
      public static void main (String[] args) {
         int needed = 30000000;
         int totalSpace = 70000000;
-        int maxSpace = 40000000;
         int sol = 0;
         HashMap<String, Integer> directorySizes = new HashMap<String, Integer>();
-        String input = Input.input();
+        String input = Input.testInput();
         ArrayList<String> directories = new ArrayList<String>();
         int last = 0;
         for (int i = 0; i < input.length(); i++) {
@@ -53,13 +52,17 @@ public class AddDirectories {
             }   
 
         }
-        System.out.println(directories.size());
+        int usedSpace = directorySizes.get("/");
+        int emptySpace = totalSpace - usedSpace;
+        int needToDelete = needed - emptySpace;
+        System.out.println(needToDelete);
+        int smallest = 2147483647;
         for (int value : directorySizes.values()) {
-            if (value <= 100000) {
-                sol += value;
+            System.out.println(value);
+            if (value >= needToDelete && value < smallest) {
+                smallest = value;
             }
         }
-        System.out.println(sol);
     }
 
 
