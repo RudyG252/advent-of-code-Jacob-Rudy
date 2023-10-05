@@ -32,10 +32,1025 @@ public class Input {
                 "4060174 j\n" + //
                 "8033020 d.log\n" + //
                 "5626152 d.ext\n" + //
-                "7214296 k";
+                "7214296 k\n";
     }
 
 
+    public static String espinozaInput() {
+        return "$ cd /\n" + //
+                "$ ls\n" + //
+                "dir jmtrrrp\n" + //
+                "dir jssnn\n" + //
+                "dir lbrmb\n" + //
+                "11968 pcccp\n" + //
+                "$ cd jmtrrrp\n" + //
+                "$ ls\n" + //
+                "77968 chq.jvb\n" + //
+                "dir fmgsql\n" + //
+                "$ cd fmgsql\n" + //
+                "$ ls\n" + //
+                "dir dbnsfp\n" + //
+                "dir vvp\n" + //
+                "$ cd dbnsfp\n" + //
+                "$ ls\n" + //
+                "51021 crlq.lrj\n" + //
+                "186829 dhcrzvbr.wmn\n" + //
+                "16232 fvhn.fqm\n" + //
+                "54150 qpbqqj.rpg\n" + //
+                "$ cd ..\n" + //
+                "$ cd vvp\n" + //
+                "$ ls\n" + //
+                "179105 rrcsndz.tzp\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd jssnn\n" + //
+                "$ ls\n" + //
+                "dir bphfqs\n" + //
+                "dir dbnsfp\n" + //
+                "dir pcccp\n" + //
+                "dir snr\n" + //
+                "dir zjbvwsnv\n" + //
+                "$ cd bphfqs\n" + //
+                "$ ls\n" + //
+                "110077 dhcrzvbr.wmn\n" + //
+                "$ cd ..\n" + //
+                "$ cd dbnsfp\n" + //
+                "$ ls\n" + //
+                "dir hgvh\n" + //
+                "dir jtqdcmsz\n" + //
+                "154197 rrcsndz.tzp\n" + //
+                "$ cd hgvh\n" + //
+                "$ ls\n" + //
+                "dir qjnbg\n" + //
+                "$ cd qjnbg\n" + //
+                "$ ls\n" + //
+                "dir bqzfpr\n" + //
+                "$ cd bqzfpr\n" + //
+                "$ ls\n" + //
+                "124394 wjsbsp\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd jtqdcmsz\n" + //
+                "$ ls\n" + //
+                "275597 dbnsfp.fpg\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd pcccp\n" + //
+                "$ ls\n" + //
+                "dir cnbd\n" + //
+                "85621 cqzvwl\n" + //
+                "dir dbnsfp\n" + //
+                "114355 hbhp.cfv\n" + //
+                "dir mcgq\n" + //
+                "dir pcccp\n" + //
+                "dir qpbqqj\n" + //
+                "224038 rrcsndz.tzp\n" + //
+                "dir zcsm\n" + //
+                "27570 zjbvwsnv.fjt\n" + //
+                "$ cd cnbd\n" + //
+                "$ ls\n" + //
+                "dir jrbz\n" + //
+                "dir pphv\n" + //
+                "$ cd jrbz\n" + //
+                "$ ls\n" + //
+                "dir dwvlwfq\n" + //
+                "$ cd dwvlwfq\n" + //
+                "$ ls\n" + //
+                "32237 fwclr.rnb\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd pphv\n" + //
+                "$ ls\n" + //
+                "180370 dhcrzvbr.wmn\n" + //
+                "50154 dzvwdwl.gbt\n" + //
+                "123965 mlsv.hlw\n" + //
+                "163116 wnhtwr.mwl\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd dbnsfp\n" + //
+                "$ ls\n" + //
+                "252181 btv.mpv\n" + //
+                "dir hwncj\n" + //
+                "dir pcccp\n" + //
+                "$ cd hwncj\n" + //
+                "$ ls\n" + //
+                "51410 jbd.fcm\n" + //
+                "$ cd ..\n" + //
+                "$ cd pcccp\n" + //
+                "$ ls\n" + //
+                "258123 chq.jvb\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd mcgq\n" + //
+                "$ ls\n" + //
+                "206506 qpbqqj.bbb\n" + //
+                "$ cd ..\n" + //
+                "$ cd pcccp\n" + //
+                "$ ls\n" + //
+                "193219 ddhtnql.hmb\n" + //
+                "134114 hjbpzqzb.rwn\n" + //
+                "108927 lznndn.nqd\n" + //
+                "73241 ncdrv\n" + //
+                "$ cd ..\n" + //
+                "$ cd qpbqqj\n" + //
+                "$ ls\n" + //
+                "dir crdt\n" + //
+                "dir tgchdnc\n" + //
+                "$ cd crdt\n" + //
+                "$ ls\n" + //
+                "205710 chq.jvb\n" + //
+                "$ cd ..\n" + //
+                "$ cd tgchdnc\n" + //
+                "$ ls\n" + //
+                "dir bdw\n" + //
+                "dir dpl\n" + //
+                "dir jssnn\n" + //
+                "dir pcccp\n" + //
+                "dir plpzbm\n" + //
+                "$ cd bdw\n" + //
+                "$ ls\n" + //
+                "211300 dbnsfp.tjm\n" + //
+                "$ cd ..\n" + //
+                "$ cd dpl\n" + //
+                "$ ls\n" + //
+                "287744 rsbjqwm\n" + //
+                "$ cd ..\n" + //
+                "$ cd jssnn\n" + //
+                "$ ls\n" + //
+                "dir jssnn\n" + //
+                "$ cd jssnn\n" + //
+                "$ ls\n" + //
+                "9644 hmjhshg.vbv\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd pcccp\n" + //
+                "$ ls\n" + //
+                "dir jssnn\n" + //
+                "85888 pcccp.hdj\n" + //
+                "dir qpbqqj\n" + //
+                "dir rmscmwtv\n" + //
+                "$ cd jssnn\n" + //
+                "$ ls\n" + //
+                "129698 crlq.lrj\n" + //
+                "7499 dhcrzvbr.wmn\n" + //
+                "283607 qpbqqj.djr\n" + //
+                "234874 wqnrhll\n" + //
+                "$ cd ..\n" + //
+                "$ cd qpbqqj\n" + //
+                "$ ls\n" + //
+                "184229 qqpb.ftd\n" + //
+                "$ cd ..\n" + //
+                "$ cd rmscmwtv\n" + //
+                "$ ls\n" + //
+                "188048 dhcrzvbr.wmn\n" + //
+                "dir jwtpgbnt\n" + //
+                "$ cd jwtpgbnt\n" + //
+                "$ ls\n" + //
+                "209946 hgg\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd plpzbm\n" + //
+                "$ ls\n" + //
+                "32627 tlb.qmc\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd zcsm\n" + //
+                "$ ls\n" + //
+                "dir lczflft\n" + //
+                "dir zjbvwsnv\n" + //
+                "dir zmh\n" + //
+                "$ cd lczflft\n" + //
+                "$ ls\n" + //
+                "40043 dzgnvlw.scr\n" + //
+                "dir lrnb\n" + //
+                "$ cd lrnb\n" + //
+                "$ ls\n" + //
+                "109881 bjpbs\n" + //
+                "dir jssnn\n" + //
+                "46901 npmw\n" + //
+                "$ cd jssnn\n" + //
+                "$ ls\n" + //
+                "9216 sgrp\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "214676 jssnn.hgn\n" + //
+                "$ cd ..\n" + //
+                "$ cd zmh\n" + //
+                "$ ls\n" + //
+                "dir jdt\n" + //
+                "dir rggpltr\n" + //
+                "$ cd jdt\n" + //
+                "$ ls\n" + //
+                "147387 jhhsv\n" + //
+                "90052 jssnn.wns\n" + //
+                "53105 qpbqqj.dzq\n" + //
+                "$ cd ..\n" + //
+                "$ cd rggpltr\n" + //
+                "$ ls\n" + //
+                "121454 dbnsfp.dzt\n" + //
+                "dir gcc\n" + //
+                "$ cd gcc\n" + //
+                "$ ls\n" + //
+                "dir zbqwl\n" + //
+                "dir zjbvwsnv\n" + //
+                "$ cd zbqwl\n" + //
+                "$ ls\n" + //
+                "260297 pcccp.jrw\n" + //
+                "$ cd ..\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "248709 pcccp.tph\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd snr\n" + //
+                "$ ls\n" + //
+                "152569 chq.jvb\n" + //
+                "1437 crlq.lrj\n" + //
+                "$ cd ..\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "dir cqhb\n" + //
+                "53235 ghhtl.bhv\n" + //
+                "199640 npcfdw\n" + //
+                "136346 qpbqqj.lmv\n" + //
+                "dir zjbvwsnv\n" + //
+                "$ cd cqhb\n" + //
+                "$ ls\n" + //
+                "24712 sqqf\n" + //
+                "$ cd ..\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "dir gzqg\n" + //
+                "dir hfbfvn\n" + //
+                "dir srsphr\n" + //
+                "dir vgvdcvc\n" + //
+                "$ cd gzqg\n" + //
+                "$ ls\n" + //
+                "dir jjw\n" + //
+                "$ cd jjw\n" + //
+                "$ ls\n" + //
+                "240052 zdcjjz.pmg\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd hfbfvn\n" + //
+                "$ ls\n" + //
+                "278190 bfgndw.pvf\n" + //
+                "$ cd ..\n" + //
+                "$ cd srsphr\n" + //
+                "$ ls\n" + //
+                "42591 zjbvwsnv.hgh\n" + //
+                "$ cd ..\n" + //
+                "$ cd vgvdcvc\n" + //
+                "$ ls\n" + //
+                "120322 rrcsndz.tzp\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd lbrmb\n" + //
+                "$ ls\n" + //
+                "dir bjhpdj\n" + //
+                "42241 crlq.lrj\n" + //
+                "dir dbnsfp\n" + //
+                "244610 dhcrzvbr.wmn\n" + //
+                "dir hppb\n" + //
+                "dir mcnzs\n" + //
+                "dir npntsr\n" + //
+                "13625 tpjpcsgp.dlz\n" + //
+                "219424 vvpbt.zvf\n" + //
+                "dir zjbvwsnv\n" + //
+                "191467 zjbvwsnv.htn\n" + //
+                "$ cd bjhpdj\n" + //
+                "$ ls\n" + //
+                "dir bqjvst\n" + //
+                "204722 dbnsfp\n" + //
+                "dir dhltrqqq\n" + //
+                "226082 dmdqcjp\n" + //
+                "dir fcqwgzp\n" + //
+                "dir jssnn\n" + //
+                "6453 jssnn.ndh\n" + //
+                "23799 jssnn.zqn\n" + //
+                "dir nwglfhpl\n" + //
+                "dir pcccp\n" + //
+                "dir pdnj\n" + //
+                "269246 shzqns.nws\n" + //
+                "dir sjstqlcb\n" + //
+                "dir zssln\n" + //
+                "$ cd bqjvst\n" + //
+                "$ ls\n" + //
+                "202793 dbnsfp.pjj\n" + //
+                "259783 jssnn\n" + //
+                "dir rbvbhnvs\n" + //
+                "30683 rvddnjmb.tlz\n" + //
+                "dir tzhslnv\n" + //
+                "$ cd rbvbhnvs\n" + //
+                "$ ls\n" + //
+                "86934 vrtrf.htt\n" + //
+                "$ cd ..\n" + //
+                "$ cd tzhslnv\n" + //
+                "$ ls\n" + //
+                "76278 mghcwdlr.tsc\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd dhltrqqq\n" + //
+                "$ ls\n" + //
+                "dir mfd\n" + //
+                "dir pcccp\n" + //
+                "dir smmb\n" + //
+                "251164 wsdnsgtt.lhr\n" + //
+                "191876 zvr.bbz\n" + //
+                "$ cd mfd\n" + //
+                "$ ls\n" + //
+                "51017 crlq.lrj\n" + //
+                "99213 rjtbnnnq.hgd\n" + //
+                "$ cd ..\n" + //
+                "$ cd pcccp\n" + //
+                "$ ls\n" + //
+                "160487 dhcrzvbr.wmn\n" + //
+                "dir nhdrnthj\n" + //
+                "dir qpbqqj\n" + //
+                "$ cd nhdrnthj\n" + //
+                "$ ls\n" + //
+                "181291 bbn.wtm\n" + //
+                "186551 fnw.tnn\n" + //
+                "23622 rrcsndz.tzp\n" + //
+                "dir zjbvwsnv\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "227547 dhcrzvbr.wmn\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd qpbqqj\n" + //
+                "$ ls\n" + //
+                "212353 crlq.lrj\n" + //
+                "170195 dhcrzvbr.wmn\n" + //
+                "dir ttvp\n" + //
+                "$ cd ttvp\n" + //
+                "$ ls\n" + //
+                "185994 tgjcfgjv\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd smmb\n" + //
+                "$ ls\n" + //
+                "dir dbnsfp\n" + //
+                "85354 dbnsfp.zpn\n" + //
+                "80665 dfmmjbm.rnr\n" + //
+                "135989 dhcrzvbr.wmn\n" + //
+                "93718 lrbzr.nfs\n" + //
+                "dir mjpfnfns\n" + //
+                "dir nsdpfnhb\n" + //
+                "dir pmnssvd\n" + //
+                "32270 qpbqqj.vtd\n" + //
+                "$ cd dbnsfp\n" + //
+                "$ ls\n" + //
+                "31796 gzs.rgv\n" + //
+                "64506 vbjncw.bpz\n" + //
+                "181659 vjlfrdp.tqh\n" + //
+                "$ cd ..\n" + //
+                "$ cd mjpfnfns\n" + //
+                "$ ls\n" + //
+                "231611 chq.jvb\n" + //
+                "17518 cmnlrzq.hvh\n" + //
+                "144795 dbnsfp\n" + //
+                "162194 jssnn.wjz\n" + //
+                "29305 vdqnlw.fzf\n" + //
+                "$ cd ..\n" + //
+                "$ cd nsdpfnhb\n" + //
+                "$ ls\n" + //
+                "281844 chq.jvb\n" + //
+                "$ cd ..\n" + //
+                "$ cd pmnssvd\n" + //
+                "$ ls\n" + //
+                "165816 dfvl.czb\n" + //
+                "144561 gbn\n" + //
+                "150785 lnzdwrmb\n" + //
+                "111214 rrcsndz.tzp\n" + //
+                "164156 tzgdb.hht\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd fcqwgzp\n" + //
+                "$ ls\n" + //
+                "199161 dhcrzvbr.wmn\n" + //
+                "34251 rrcsndz.tzp\n" + //
+                "198345 vjlfrdp.tqh\n" + //
+                "167001 zjbvwsnv.bsd\n" + //
+                "$ cd ..\n" + //
+                "$ cd jssnn\n" + //
+                "$ ls\n" + //
+                "dir ccblfvl\n" + //
+                "103180 dhcrzvbr.wmn\n" + //
+                "dir prw\n" + //
+                "dir tzqfn\n" + //
+                "dir zjbvwsnv\n" + //
+                "166467 zjbvwsnv.tdt\n" + //
+                "$ cd ccblfvl\n" + //
+                "$ ls\n" + //
+                "159752 crlq.lrj\n" + //
+                "20805 jssnn.dvb\n" + //
+                "243040 lct.zll\n" + //
+                "27492 qbh\n" + //
+                "27174 vjlfrdp.tqh\n" + //
+                "dir zvfwq\n" + //
+                "$ cd zvfwq\n" + //
+                "$ ls\n" + //
+                "135126 chq.jvb\n" + //
+                "41664 gphw.vzd\n" + //
+                "dir hmrdghbr\n" + //
+                "dir jssnn\n" + //
+                "dir qzzb\n" + //
+                "dir tmdlcv\n" + //
+                "$ cd hmrdghbr\n" + //
+                "$ ls\n" + //
+                "dir jvgpwrbs\n" + //
+                "$ cd jvgpwrbs\n" + //
+                "$ ls\n" + //
+                "dir wzdv\n" + //
+                "$ cd wzdv\n" + //
+                "$ ls\n" + //
+                "26834 qpbqqj.njf\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd jssnn\n" + //
+                "$ ls\n" + //
+                "90199 jqqmqddf.qnz\n" + //
+                "$ cd ..\n" + //
+                "$ cd qzzb\n" + //
+                "$ ls\n" + //
+                "dir mgpql\n" + //
+                "dir src\n" + //
+                "dir zvdgc\n" + //
+                "$ cd mgpql\n" + //
+                "$ ls\n" + //
+                "141852 qpbqqj\n" + //
+                "$ cd ..\n" + //
+                "$ cd src\n" + //
+                "$ ls\n" + //
+                "204425 lqmcbndm.jrj\n" + //
+                "75571 qsbrsv.jcm\n" + //
+                "$ cd ..\n" + //
+                "$ cd zvdgc\n" + //
+                "$ ls\n" + //
+                "268742 ffjmrmmz.lhg\n" + //
+                "18385 rvmp.hjv\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd tmdlcv\n" + //
+                "$ ls\n" + //
+                "182587 sfwvjrj.mzl\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd prw\n" + //
+                "$ ls\n" + //
+                "207429 dbnsfp.rqf\n" + //
+                "dir ptgn\n" + //
+                "dir pzgpqp\n" + //
+                "252902 rbt\n" + //
+                "169694 trg.rsh\n" + //
+                "$ cd ptgn\n" + //
+                "$ ls\n" + //
+                "dir jssnn\n" + //
+                "dir qpbqqj\n" + //
+                "dir rpd\n" + //
+                "$ cd jssnn\n" + //
+                "$ ls\n" + //
+                "189316 dbnsfp.bqc\n" + //
+                "$ cd ..\n" + //
+                "$ cd qpbqqj\n" + //
+                "$ ls\n" + //
+                "167937 zjbvwsnv.bhz\n" + //
+                "$ cd ..\n" + //
+                "$ cd rpd\n" + //
+                "$ ls\n" + //
+                "8775 crlq.lrj\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd pzgpqp\n" + //
+                "$ ls\n" + //
+                "dir pcccp\n" + //
+                "$ cd pcccp\n" + //
+                "$ ls\n" + //
+                "51496 pcccp\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd tzqfn\n" + //
+                "$ ls\n" + //
+                "dir cbpfvdp\n" + //
+                "285700 crlq.lrj\n" + //
+                "7426 dbnsfp.fsd\n" + //
+                "dir gdl\n" + //
+                "141367 jssnn.hmw\n" + //
+                "184482 sczphnp.vnc\n" + //
+                "126288 vjlfrdp.tqh\n" + //
+                "dir wndpdj\n" + //
+                "$ cd cbpfvdp\n" + //
+                "$ ls\n" + //
+                "dir cvfr\n" + //
+                "dir qpbqqj\n" + //
+                "$ cd cvfr\n" + //
+                "$ ls\n" + //
+                "dir jfrnvts\n" + //
+                "dir qpbqqj\n" + //
+                "$ cd jfrnvts\n" + //
+                "$ ls\n" + //
+                "dir vwdn\n" + //
+                "$ cd vwdn\n" + //
+                "$ ls\n" + //
+                "236936 vjlfrdp.tqh\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd qpbqqj\n" + //
+                "$ ls\n" + //
+                "254275 bqd\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd qpbqqj\n" + //
+                "$ ls\n" + //
+                "dir jssnn\n" + //
+                "201960 qpbqqj\n" + //
+                "$ cd jssnn\n" + //
+                "$ ls\n" + //
+                "131127 jssnn\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd gdl\n" + //
+                "$ ls\n" + //
+                "225146 hsgzmtp.wcs\n" + //
+                "204436 jssnn.lhh\n" + //
+                "64007 mjzjgfg.jsb\n" + //
+                "$ cd ..\n" + //
+                "$ cd wndpdj\n" + //
+                "$ ls\n" + //
+                "245412 bvcq\n" + //
+                "211386 dbnsfp.tqd\n" + //
+                "186962 fql.mww\n" + //
+                "dir hlmhtfz\n" + //
+                "117446 smvjvcn.lcp\n" + //
+                "$ cd hlmhtfz\n" + //
+                "$ ls\n" + //
+                "150152 lrdhbq.rvm\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "179703 fvmbz\n" + //
+                "87552 qtz.ccw\n" + //
+                "129764 rrcsndz.tzp\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd nwglfhpl\n" + //
+                "$ ls\n" + //
+                "66039 crlq.lrj\n" + //
+                "dir cwq\n" + //
+                "dir dlgrsw\n" + //
+                "267814 frhlttn.nmd\n" + //
+                "dir hmprt\n" + //
+                "dir qpbqqj\n" + //
+                "dir wnfzznfh\n" + //
+                "$ cd cwq\n" + //
+                "$ ls\n" + //
+                "77655 cpjnwzh\n" + //
+                "dir pcccp\n" + //
+                "dir zjbvwsnv\n" + //
+                "dir zzhjfmnr\n" + //
+                "$ cd pcccp\n" + //
+                "$ ls\n" + //
+                "dir pcccp\n" + //
+                "$ cd pcccp\n" + //
+                "$ ls\n" + //
+                "245309 bggzbrg.flf\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "196915 gnmfb.dzq\n" + //
+                "dir ngqbdqp\n" + //
+                "$ cd ngqbdqp\n" + //
+                "$ ls\n" + //
+                "355 rrcsndz.tzp\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd zzhjfmnr\n" + //
+                "$ ls\n" + //
+                "dir dbnsfp\n" + //
+                "$ cd dbnsfp\n" + //
+                "$ ls\n" + //
+                "223184 chq.jvb\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd dlgrsw\n" + //
+                "$ ls\n" + //
+                "181906 chq.jvb\n" + //
+                "5636 dbnsfp\n" + //
+                "219889 jbr.slc\n" + //
+                "dir zrntbl\n" + //
+                "$ cd zrntbl\n" + //
+                "$ ls\n" + //
+                "61864 brnpgpwt\n" + //
+                "138980 qpbqqj\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd hmprt\n" + //
+                "$ ls\n" + //
+                "90249 dbnsfp.mbd\n" + //
+                "$ cd ..\n" + //
+                "$ cd qpbqqj\n" + //
+                "$ ls\n" + //
+                "290377 crlq.lrj\n" + //
+                "$ cd ..\n" + //
+                "$ cd wnfzznfh\n" + //
+                "$ ls\n" + //
+                "83022 hclmps\n" + //
+                "64095 zhm\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd pcccp\n" + //
+                "$ ls\n" + //
+                "dir rdzntr\n" + //
+                "dir rvccq\n" + //
+                "$ cd rdzntr\n" + //
+                "$ ls\n" + //
+                "239028 rrcsndz.tzp\n" + //
+                "$ cd ..\n" + //
+                "$ cd rvccq\n" + //
+                "$ ls\n" + //
+                "22746 chq.jvb\n" + //
+                "288752 jjvppq.swt\n" + //
+                "dir msgwsnjq\n" + //
+                "dir pggz\n" + //
+                "228469 vjlfrdp.tqh\n" + //
+                "$ cd msgwsnjq\n" + //
+                "$ ls\n" + //
+                "102522 lwgqc.mhv\n" + //
+                "25239 ndm.llf\n" + //
+                "$ cd ..\n" + //
+                "$ cd pggz\n" + //
+                "$ ls\n" + //
+                "dir cnjqsqj\n" + //
+                "$ cd cnjqsqj\n" + //
+                "$ ls\n" + //
+                "229407 shpnq\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd pdnj\n" + //
+                "$ ls\n" + //
+                "193069 rwnhgttz.pvp\n" + //
+                "$ cd ..\n" + //
+                "$ cd sjstqlcb\n" + //
+                "$ ls\n" + //
+                "263295 chq.jvb\n" + //
+                "224091 jss.wtr\n" + //
+                "$ cd ..\n" + //
+                "$ cd zssln\n" + //
+                "$ ls\n" + //
+                "5859 ncdlcr.dll\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd dbnsfp\n" + //
+                "$ ls\n" + //
+                "271252 dhcrzvbr.wmn\n" + //
+                "$ cd ..\n" + //
+                "$ cd hppb\n" + //
+                "$ ls\n" + //
+                "259968 jssnn\n" + //
+                "81292 qpqqb.clj\n" + //
+                "$ cd ..\n" + //
+                "$ cd mcnzs\n" + //
+                "$ ls\n" + //
+                "170903 crlq.lrj\n" + //
+                "59482 dhcrzvbr.wmn\n" + //
+                "dir dqzwzbgm\n" + //
+                "dir gnrztn\n" + //
+                "286736 jssnn.jcm\n" + //
+                "32791 phqsgl\n" + //
+                "dir pzjnrwt\n" + //
+                "197323 vjlfrdp.tqh\n" + //
+                "dir wvnwbpct\n" + //
+                "$ cd dqzwzbgm\n" + //
+                "$ ls\n" + //
+                "78575 qpbqqj\n" + //
+                "251546 qpbqqj.slb\n" + //
+                "$ cd ..\n" + //
+                "$ cd gnrztn\n" + //
+                "$ ls\n" + //
+                "158603 hdnwmd.rhj\n" + //
+                "dir nbfdtwzr\n" + //
+                "178239 ptnchzpg\n" + //
+                "40517 rrcsndz.tzp\n" + //
+                "dir smvb\n" + //
+                "198007 vjlfrdp.tqh\n" + //
+                "$ cd nbfdtwzr\n" + //
+                "$ ls\n" + //
+                "200354 crlq.lrj\n" + //
+                "$ cd ..\n" + //
+                "$ cd smvb\n" + //
+                "$ ls\n" + //
+                "163921 zjbvwsnv.brz\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd pzjnrwt\n" + //
+                "$ ls\n" + //
+                "33891 lwrll\n" + //
+                "259646 pcccp.sfn\n" + //
+                "106835 pqfzthjq\n" + //
+                "189673 rrcsndz.tzp\n" + //
+                "$ cd ..\n" + //
+                "$ cd wvnwbpct\n" + //
+                "$ ls\n" + //
+                "234188 dhcrzvbr.wmn\n" + //
+                "dir gmtpsgv\n" + //
+                "86379 jssnn\n" + //
+                "146663 sfpmdbbd.jvt\n" + //
+                "25795 vjlfrdp.tqh\n" + //
+                "$ cd gmtpsgv\n" + //
+                "$ ls\n" + //
+                "18642 chq.jvb\n" + //
+                "3046 cznlwtw\n" + //
+                "26335 ddgpngrc\n" + //
+                "116455 vnnls.hsg\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd npntsr\n" + //
+                "$ ls\n" + //
+                "dir cccjdcvb\n" + //
+                "206657 chq.jvb\n" + //
+                "280518 crlq.lrj\n" + //
+                "dir dbnsfp\n" + //
+                "dir jphnn\n" + //
+                "dir jssnn\n" + //
+                "dir mpl\n" + //
+                "195193 rrcsndz.tzp\n" + //
+                "dir rztc\n" + //
+                "dir znwp\n" + //
+                "$ cd cccjdcvb\n" + //
+                "$ ls\n" + //
+                "192965 mcr.sfq\n" + //
+                "$ cd ..\n" + //
+                "$ cd dbnsfp\n" + //
+                "$ ls\n" + //
+                "dir gfns\n" + //
+                "173317 jssnn.tjq\n" + //
+                "dir mgr\n" + //
+                "68817 mvwcwfcr.zmz\n" + //
+                "dir pqfht\n" + //
+                "108571 swfl.dtj\n" + //
+                "10398 tvvvv\n" + //
+                "dir vzg\n" + //
+                "174361 zjbvwsnv\n" + //
+                "$ cd gfns\n" + //
+                "$ ls\n" + //
+                "203999 zjbvwsnv.hfg\n" + //
+                "$ cd ..\n" + //
+                "$ cd mgr\n" + //
+                "$ ls\n" + //
+                "dir zjbvwsnv\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "26871 tqlgcf.jrn\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd pqfht\n" + //
+                "$ ls\n" + //
+                "199590 clpvscl.rlm\n" + //
+                "dir dwlhv\n" + //
+                "dir vhzfzhrb\n" + //
+                "$ cd dwlhv\n" + //
+                "$ ls\n" + //
+                "130761 qpbqqj\n" + //
+                "242752 rrcsndz.tzp\n" + //
+                "$ cd ..\n" + //
+                "$ cd vhzfzhrb\n" + //
+                "$ ls\n" + //
+                "dir njdgcbvm\n" + //
+                "$ cd njdgcbvm\n" + //
+                "$ ls\n" + //
+                "dir snjfqg\n" + //
+                "$ cd snjfqg\n" + //
+                "$ ls\n" + //
+                "dir qpwh\n" + //
+                "$ cd qpwh\n" + //
+                "$ ls\n" + //
+                "153353 qsjpj\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd vzg\n" + //
+                "$ ls\n" + //
+                "dir pcccp\n" + //
+                "$ cd pcccp\n" + //
+                "$ ls\n" + //
+                "dir jfbtl\n" + //
+                "$ cd jfbtl\n" + //
+                "$ ls\n" + //
+                "209199 dbnsfp\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd jphnn\n" + //
+                "$ ls\n" + //
+                "52305 crlq.lrj\n" + //
+                "193480 gmms.whz\n" + //
+                "59354 nmq.dww\n" + //
+                "64638 qpbqqj\n" + //
+                "47072 rrcsndz.tzp\n" + //
+                "$ cd ..\n" + //
+                "$ cd jssnn\n" + //
+                "$ ls\n" + //
+                "69168 crlq.lrj\n" + //
+                "1549 dhcrzvbr.wmn\n" + //
+                "219596 hdmczg.lmm\n" + //
+                "108063 jssnn\n" + //
+                "24327 vjlfrdp.tqh\n" + //
+                "dir zjbvwsnv\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "189952 chq.jvb\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd mpl\n" + //
+                "$ ls\n" + //
+                "144856 bqrrzm\n" + //
+                "249487 crlq.lrj\n" + //
+                "dir ffqgpgfg\n" + //
+                "93632 flqwtn.nsz\n" + //
+                "dir mwpcqr\n" + //
+                "195910 pdqwn.lcg\n" + //
+                "$ cd ffqgpgfg\n" + //
+                "$ ls\n" + //
+                "66459 dbnsfp\n" + //
+                "200500 lcmt.zmz\n" + //
+                "207093 qpbqqj\n" + //
+                "77042 vjlfrdp.tqh\n" + //
+                "57109 wwzv.hbn\n" + //
+                "$ cd ..\n" + //
+                "$ cd mwpcqr\n" + //
+                "$ ls\n" + //
+                "dir zjbvwsnv\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "166393 vjlfrdp.tqh\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd rztc\n" + //
+                "$ ls\n" + //
+                "57788 chq.jvb\n" + //
+                "$ cd ..\n" + //
+                "$ cd znwp\n" + //
+                "$ ls\n" + //
+                "164627 chq.jvb\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "dir dgrrl\n" + //
+                "71529 jssnn\n" + //
+                "198617 pcccp.qqh\n" + //
+                "dir phggn\n" + //
+                "56842 zjbvwsnv.vqd\n" + //
+                "$ cd dgrrl\n" + //
+                "$ ls\n" + //
+                "dir czm\n" + //
+                "dir fhhlbdlz\n" + //
+                "dir gstjw\n" + //
+                "dir qpbqqj\n" + //
+                "dir stgb\n" + //
+                "$ cd czm\n" + //
+                "$ ls\n" + //
+                "dir jssnn\n" + //
+                "$ cd jssnn\n" + //
+                "$ ls\n" + //
+                "162335 chq.jvb\n" + //
+                "30099 mfdgdw\n" + //
+                "96389 pcdsd.wmw\n" + //
+                "251423 tmz.lcb\n" + //
+                "205979 vpltdt.gtv\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd fhhlbdlz\n" + //
+                "$ ls\n" + //
+                "dir qpbqqj\n" + //
+                "dir vdjs\n" + //
+                "dir zgz\n" + //
+                "$ cd qpbqqj\n" + //
+                "$ ls\n" + //
+                "285561 chq.jvb\n" + //
+                "263924 lbqcfdrs\n" + //
+                "138854 pcccp.dtn\n" + //
+                "$ cd ..\n" + //
+                "$ cd vdjs\n" + //
+                "$ ls\n" + //
+                "32688 chq.jvb\n" + //
+                "223233 tbn.blt\n" + //
+                "$ cd ..\n" + //
+                "$ cd zgz\n" + //
+                "$ ls\n" + //
+                "92804 bqltmv.wzb\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd gstjw\n" + //
+                "$ ls\n" + //
+                "151784 fvfszzzn.cbh\n" + //
+                "$ cd ..\n" + //
+                "$ cd qpbqqj\n" + //
+                "$ ls\n" + //
+                "dir blztqf\n" + //
+                "dir plgnh\n" + //
+                "$ cd blztqf\n" + //
+                "$ ls\n" + //
+                "195097 wlvmtz\n" + //
+                "$ cd ..\n" + //
+                "$ cd plgnh\n" + //
+                "$ ls\n" + //
+                "dir dbnsfp\n" + //
+                "246221 dhcrzvbr.wmn\n" + //
+                "271121 jhwmmzls.mhw\n" + //
+                "170162 pcccp.dpp\n" + //
+                "37872 qpbqqj\n" + //
+                "$ cd dbnsfp\n" + //
+                "$ ls\n" + //
+                "dir dhpnr\n" + //
+                "$ cd dhpnr\n" + //
+                "$ ls\n" + //
+                "152837 pcccp\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd stgb\n" + //
+                "$ ls\n" + //
+                "248436 vjlfrdp.tqh\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd phggn\n" + //
+                "$ ls\n" + //
+                "284602 dhcrzvbr.wmn\n" + //
+                "dir lctr\n" + //
+                "dir rjmc\n" + //
+                "66651 rrcsndz.tzp\n" + //
+                "117525 vth.fgw\n" + //
+                "156877 wcqnjzbq.dgf\n" + //
+                "7803 zpsrzclh.bzw\n" + //
+                "$ cd lctr\n" + //
+                "$ ls\n" + //
+                "212339 jssnn.whp\n" + //
+                "dir jzhcqb\n" + //
+                "99974 pcccp.zhs\n" + //
+                "111354 pmc\n" + //
+                "104899 vjlfrdp.tqh\n" + //
+                "93496 zhwmbw\n" + //
+                "$ cd jzhcqb\n" + //
+                "$ ls\n" + //
+                "dir zjbvwsnv\n" + //
+                "$ cd zjbvwsnv\n" + //
+                "$ ls\n" + //
+                "146807 rbrg\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd ..\n" + //
+                "$ cd rjmc\n" + //
+                "$ ls\n" + //
+                "dir fvbmsc\n" + //
+                "139747 glwmr.lrg\n" + //
+                "dir gvnnz\n" + //
+                "102023 tbj.qmz\n" + //
+                "dir vsztsjfh\n" + //
+                "$ cd fvbmsc\n" + //
+                "$ ls\n" + //
+                "136838 vpvbz.qtw\n" + //
+                "$ cd ..\n" + //
+                "$ cd gvnnz\n" + //
+                "$ ls\n" + //
+                "95498 zjbvwsnv\n" + //
+                "$ cd ..\n" + //
+                "$ cd vsztsjfh\n" + //
+                "$ ls\n" + //
+                "215479 ffwlcrwb\n";
+    }
     public static String input() {
         return """
                 $ cd /

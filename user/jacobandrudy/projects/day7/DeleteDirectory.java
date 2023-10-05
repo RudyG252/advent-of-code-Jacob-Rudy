@@ -8,7 +8,7 @@ public class DeleteDirectory {
         int totalSpace = 70000000;
         int sol = 0;
         HashMap<String, Integer> directorySizes = new HashMap<String, Integer>();
-        String input = Input.testInput();
+        String input = Input.espinozaInput();
         ArrayList<String> directories = new ArrayList<String>();
         int last = 0;
         for (int i = 0; i < input.length(); i++) {
@@ -34,17 +34,11 @@ public class DeleteDirectory {
                     for (int j = last; input.charAt(j) != ' '; j++) {
                         size += input.charAt(j) + "";
                     }
-                    for (int l = 0; l < directories.size(); l++) {
-                        System.out.print(directories.get(l) + "/");
-                    
-                    }
-                    System.out.println();
                     
                     for (int j = 0; j < directories.size(); j++) {
                         int put = directorySizes.getOrDefault(directories.get(j), 0) + Integer.parseInt(size);
                         directorySizes.put(directories.get(j), put);
                     }
-                    System.out.println(directorySizes.get(directories.get(0)));
 
                 }
 
@@ -55,14 +49,13 @@ public class DeleteDirectory {
         int usedSpace = directorySizes.get("/");
         int emptySpace = totalSpace - usedSpace;
         int needToDelete = needed - emptySpace;
-        System.out.println(needToDelete);
         int smallest = 2147483647;
         for (int value : directorySizes.values()) {
-            System.out.println(value);
             if (value >= needToDelete && value < smallest) {
                 smallest = value;
             }
         }
+        System.out.println(smallest);
     }
 
 
